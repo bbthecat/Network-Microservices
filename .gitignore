@@ -1,0 +1,27 @@
+# Secrets — NEVER commit these
+.env
+*.env
+.env.*
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Logs
+nginx/logs/
+db/logs/
+*.log
+
+# Test reports
+scripts/test_report.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Docker volumes (local)
+postgres_data/
+redis_data/
